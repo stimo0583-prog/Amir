@@ -6,7 +6,11 @@
   "build": {
     "apk": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "resourceClass": "medium"
+      },
+      "node": {
+        "version": "20"
       }
     },
     "preview": {
